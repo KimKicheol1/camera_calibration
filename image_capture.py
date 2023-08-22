@@ -1,6 +1,6 @@
 import cv2
 
-camera = cv2.VideoCapture("rtsp://administrator:jakazuadmin@192.168.0.130:554/stream1") # ip camera qqq
+camera = cv2.VideoCapture(0)
 i = 1
 
 while True:
