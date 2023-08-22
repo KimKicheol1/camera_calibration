@@ -16,7 +16,7 @@ def camera_calibration(img):
   
   return dst
 
-camera = cv2.VideoCapture("rtsp://administrator:jakazuadmin@192.168.0.117:554/stream1") # ip camera  addr
+camera = cv2.VideoCapture(0)
 
 while True:
   _, img = camera.read()
